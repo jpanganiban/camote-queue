@@ -2,7 +2,6 @@
 
 import os
 import sys
-import camote
 
 try:
     from setuptools import setup
@@ -18,7 +17,7 @@ requires = ['redis']
 
 setup(
     name='camote-queue',
-    version=camote.__version__,
+    version='0.1.12',
     description='Redis based queue that supports fetching job position.',
     long_description=open('README.rst').read() + '\n\n' +
                      open('HISTORY.rst').read(),
